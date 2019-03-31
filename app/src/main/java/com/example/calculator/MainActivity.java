@@ -11,7 +11,7 @@ public class MainActivity extends AppCompatActivity {
 
     private TextView tvOut;
     private Button num1,num2,num3,num4,num5,num6,num7,num8,num9,num0
-            , Dot, Divide, Multiply, Subtract, Add, Delete, Calculate;
+            , Dot, Divide, Multiply, Subtract, Add, Calculate;
 
     private double var1, var2;
     private boolean add, sub, multiply, div;
@@ -43,7 +43,6 @@ public class MainActivity extends AppCompatActivity {
     Multiply = findViewById(R.id.Multiply);
     Subtract = findViewById(R.id.Subtract);
     Add = findViewById(R.id.Add);
-    Delete = findViewById(R.id.Delete);
     Calculate = findViewById(R.id.Calculate);
 
 
